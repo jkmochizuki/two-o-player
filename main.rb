@@ -1,5 +1,5 @@
 require './player'
-require './questions'
+require './question'
 require './game'
 
 player_1 = Player.new("Player 1")
