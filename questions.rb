@@ -29,15 +29,15 @@ class Question
     puts "#{@question}"
   end
 
-  def print_answer
-    puts "#{@answer}"
+  def answer
+    @answer
   end
 
 end
 
-new_question = Question.new
-new_question.print_question
-new_question.print_answer
+# new_question = Question.new
+# new_question.print_question
+# new_question.answer
 
 
 

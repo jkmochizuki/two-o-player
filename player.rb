@@ -1,27 +1,17 @@
 class Player
 
-  attr_accessor :number, :lives
+  attr_accessor :name, :lives
 
-  def initialize(number)    
-    @number = number
+  def initialize(name)    
+    @name = name
     @lives = 3
-  end
-
-  def info
-    "Player #{self.number}"
-  end
-
-  def lives
-    lives = !correct_answer ? -1 : lives
   end
 
 end
 
-player_1 = Player.new("1")  
-puts player_1.info
+# player_1 = Player.new("Player 1")  
+# puts player_1.lives
 
-player_2 = Player.new("2")  
-puts player_2.info
-puts player_2.lives
 
-# current player
+# player_2 = Player.new("Player 2")  
+# puts player_2.info
