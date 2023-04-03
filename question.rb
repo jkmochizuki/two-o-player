@@ -37,7 +37,7 @@ end
 
 # new_question = Question.new
 # new_question.print_question
-# new_question.answer
+# puts new_question.answer
 
 
 
